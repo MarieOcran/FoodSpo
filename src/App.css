@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+
+.feed{
+  padding-bottom: 40px;
+}
+.hero {
+  padding: 3.25rem 0px !important;
+  margin: 0px !important;
+}
+
+.app {
+  background-image: black;
+  height: 100vh;
+  
+}
+
+
+.app_header {
+  background-image: white;
+  padding: 20px;
+  border-bottom: 1px outset white;
+  object-fit:contain;
+  box-shadow: 0 14px 28px rgba(0, 0,0,
+  0.35), 0 10px 10px rgba(255, 255, 255, 0.22);
+  width: 250px;
+}
+
+Button:hover{
+  color:white;
+  margin-left: 10px;
+}
+
+@media(max-width: 768px){
+  .app_header{
+    display: none;
+  }
+  .feed{
+    padding:0;
+  }
+}
+
+.logo { 
+  font-family:  'Mansalva', cursive;;
+  font-size: 50px;
+  color: orangered;
+
+}
+.logo:hover {
+  color: yellowgreen;
+}
+.logo1{
+  font-family:  'Mansalva', cursive;;
+  font-size: 25px;
+  color: orangered;
+  margin-left: 50px;
+  margin-top: 3px;
+  
+  
+}
+.logo1:hover{
+  color: yellowgreen;
+}
+
+.post {
+  background-color:  rgba(0, 0, 0, 0);
+  box-shadow: 0 14px 28px rgba(0, 0,0,
+  0.35), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  
+  
+
+}
+.text-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.post-image{
+  width: 100%;
+  object-fit: contain;
+
+}
+progress{
+  width: 330px;
+  height: 10px;
+  border: none inset;
+
+
+}
+
+.post:hover{
+  background-color: black;
+  color:white;
+
+}
+cardbox-item{
+  height: 100px;
+}
+
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.media .mr-3{
+  margin-right: 1rem !important;
+}
+.media img{
+  width: 48px !important;
+  height: 48px !important;
+  padding: 2px;
+  border: 2px solid #f4f4f4;
+} 
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+  padding: .4rem !important;
+}
+
+
+.cardbox-base{
+  border-bottom: 2px solid #f4f4f4;
+ }	
+ .cardbox-base ul{
+  margin: 10px 0px 10px 15px!important; 
+  padding: 10px !important;
+  font-size: 0px;	
+   display: inline-block;
+ }
+ .cardbox-base li {
+   list-style: none;
+   margin: 0px 0px 0px -8px !important;
+   padding: 0px 0px 0px 0px !important;
+   display: inline-block;
+ }
+ 
+ .progress {
+   width: 331px;
+ }
+
+ .comment_box{
+   display: flex;
+   margin-top: 5px;
+   margin-bottom: 10px;
+
+ }
+
+ .post_input{
+   flex:1;
+   border: none;
+   padding: 10px;
+   border:0.5px inset lightgrey;
+   border-radius: 50px;
+ }
+ .post_input:focus{
+  border: 1px outset orangered;
+  outline: none;
+ }
+
+ .post-btn{
+   flex: 0;
+   border: none;
+   color: orangered;
+   background-color: transparent;
+   cursor: pointer;
+   transform: translateX(-50px);
+
+ }
+ strong{
+   color: orangered;
+ }
+ 
+ strong:hover{
+   color: yellowgreen;
+ }
+ 
+
+ .float-right:hover{
+    color: yellowgreen;
+ }

@@ -1,0 +1,56 @@
+.footer {
+    visibility: hidden;
+    
+
+}
+
+ .nav-item:hover {
+
+        cursor: pointer;
+        color: blue;
+
+
+    }
+
+@media(max-width: 768px){
+
+
+
+    .footer {
+    visibility: visible;
+    background-color: white;
+    border-bottom: 1px outset white;
+    box-shadow: 0 14px 28px rgba(0, 0,0,
+    0.35), 0 10px 10px rgba(255, 255, 255, 0.22);
+
+
+    }
+    
+    .bi-person-dash:hover{
+        color: orangered;
+
+    }
+    .bi-person-dash{
+        color: red;
+
+    }
+    .bi-person-check{
+        color: yellowgreen;
+
+    }
+    .bi-upload{
+        color: orangered;
+
+    }
+    .bi-person-plus:hover{
+        color: orangered;
+
+    }
+    .bi-person-plus{
+        color: yellowgreen;
+
+    }
+        
+
+   
+}
