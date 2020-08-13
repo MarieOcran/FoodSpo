@@ -1,5 +1,5 @@
 # FoodSpo
-Social media app for  food content ONLY. Built with React, Firebase, and Bootstrap
+Social media app for  food content ONLY. Built with React, Firebase, Material, UI and Bootstrap
 
 This is Phase 1 presentation.
 
